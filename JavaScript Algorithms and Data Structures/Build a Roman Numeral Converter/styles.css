@@ -1,0 +1,80 @@
+html {
+    background-color: #182530;
+}
+
+
+body {
+    margin: 50px auto 50px auto;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #283f52;
+    max-width: 800px;
+    border: solid 14px #203241;
+    box-shadow: 0 0 30px 1px #203241;
+    height: 498px;
+    color: #dcdcde;
+}
+
+.title {
+    margin: 20% 0 0 25%;
+    padding: 0;
+    font-size: 24px;
+}
+
+.input {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 0 0 25%;
+    width: 50%;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+#number {
+    background-color: #0c1218;
+    color: #e3e3e3;
+    width: 140px;
+    height: 25px;
+}
+
+#convert-btn {
+    background-color: #b54c02;
+    color: #e3e3e3;
+    width: 70px;
+    height: 25px;
+}
+
+.history {
+    background-color: #0d2e4a;
+    width: 219px;
+    height: 483px;
+    border-left: solid 7px #0f2a40;
+    border-radius: 10px 0 0 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.output {
+    width: 320px;
+    height: 120px;
+    background-color: #202841;
+    border-left: solid 4px green;
+    border-radius: 10px;
+    margin: 14% 0 0 22%;
+}
+
+#output {
+    margin: 20px;
+    height: 90px;
+    font-size: 20px;
+    padding-top: 10px;
+}
