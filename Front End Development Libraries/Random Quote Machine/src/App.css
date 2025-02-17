@@ -1,0 +1,38 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#author {
+  text-align: right;
+}
+
+.content {
+  margin: 20px;
+}
+
+#new-quote {
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 37px;
+  border: none;
+  margin-left: 14px;
+  padding: 3px 0 0 0;
+}
+
+#tweet-quote {
+  padding: 10px 12px 6px 12px;
+  border-radius: 6px;
+}
