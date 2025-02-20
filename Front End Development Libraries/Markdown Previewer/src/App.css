@@ -1,0 +1,75 @@
+#editor {
+  position: fixed;
+  right: 0;
+  top: 30px;
+  width: 400px;
+  max-width: 550px;
+  height: 80vh;
+  background-color: rgb(35, 35, 35);
+  color: rgb(253, 255, 207);
+  padding: 15px;
+  border-radius: 30px 0px 0 30px;
+}
+
+#preview {
+  width: 700px;
+  margin: 30px 150px;
+  padding: 30px;
+  color: white;
+  background-color: rgb(82, 79, 90);
+  border-radius: 0 30px 30px 30px;
+  box-shadow: 6px 6px 6px rgb(58, 56, 64);
+
+  img {
+    max-width: 100%;
+    height: auto;
+    max-width: 700px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  code {
+    border-left: green 3px solid;
+    padding: 3px 5px;
+    background-color: rgb(82, 79, 100);
+    border-radius: 3px 7px 7px 3px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  pre {
+    background-color: rgb(82, 79, 100);
+    padding: 3px 5px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-left: 15px;
+    border-left: green 3px solid;
+  }
+
+  pre code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    border: none;
+  }
+
+  a {
+    color: aqua;
+  }
+
+  blockquote {
+    font-style: italic;
+  }
+}
+
+.flip {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, rgb(73, 70, 81) 50%, rgb(82, 79, 90) 50%);
+  box-shadow: 0px 0px 40px rgb(31, 30, 34);
+  position: absolute;
+  top: 30px;
+  left: 158px;
+}
