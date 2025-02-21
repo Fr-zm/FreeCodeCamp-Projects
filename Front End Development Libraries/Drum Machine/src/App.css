@@ -1,0 +1,47 @@
+#drum-machine {
+  margin: 100px auto;
+  padding: 3px;
+  max-width: 400px;
+  border-radius: 30px;
+  height: 400px;
+  background-color: rgb(117, 117, 117);
+  box-shadow: 10px 10px 10px rgb(69, 69, 69);
+}
+
+#display {
+  background-color: black;
+  border: 1px rgb(103, 0, 0) solid;
+  color: green;
+  width: 90%;
+  margin: 15px auto;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.drum-pad {
+  margin: 10px 0px 10px 21px;
+  width: 26.3%;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(222, 201, 11);
+  box-shadow: 5px 5px 5px rgb(82, 82, 82);
+  font-size: 23px;
+  font-family: "Patrick Hand", "Comic Sans MS", cursive;
+}
+
+.drum-pad:active {
+  background-color: rgb(180, 160, 10);
+  box-shadow: 2px 2px 2px rgb(50, 50, 50);
+}
+
+#volume-slider {
+  transform: rotate(-90deg);
+  margin: 0;
+  padding: 0;
+}
