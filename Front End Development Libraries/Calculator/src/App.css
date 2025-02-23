@@ -1,0 +1,62 @@
+#container {
+  width: 262px;
+  margin: 3% auto;
+  background-color: lightgray;
+  color: rgb(148, 215, 176);
+  padding: 15px;
+  border-radius: 10px;
+  border: 4px solid rgb(200, 200, 200);
+  box-shadow: 3px 3px 3px rgb(123, 123, 123);
+}
+
+#display {
+  background-color: rgb(40, 32, 33);
+  width: 250px;
+  height: 40px;
+  margin: 0 0 10px 0;
+  font-size: 25px;
+  padding: 10px 0 0 10px;
+}
+
+#equation {
+  background-color: rgb(40, 32, 33);
+  color: rgb(149, 203, 0);
+  font-size: 15px;
+  width: 250px;
+  height: 12px;
+  padding: 8px 0 0 10px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(4, 60px);
+  grid-auto-rows: auto;
+  gap: 6px;
+  width: 258px;
+}
+
+button {
+  background-color: rgb(81, 92, 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 60px;
+  box-shadow: 2px 2px 2px rgb(43, 49, 53);
+}
+
+button:active {
+  background-color: rgb(57, 65, 71);
+  box-shadow: 1px 1px 1px rgb(43, 49, 53);
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  height: 126px;
+}
