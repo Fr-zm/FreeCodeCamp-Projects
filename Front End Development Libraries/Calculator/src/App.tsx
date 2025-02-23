@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 // sorry if this is not readable ):
 function App() {
-  const [text, setText] = useState("0") // so this is the main text and if press like a + it will simply show +
+  const [text, setText] = useState("0") // so this is the main text and if you press like a + it will simply show +
   const [equation, setEqu] = useState("") // this is the whole expression, it's like 5 + 5 = 10
   const [stack, setStack] = useState(true); //this is for stacking the numbers for making more than 1 digit numbers (it could've been handled better)
   const [last, setLast] = useState("") // this is the answer from last equation, like a history but with only 1 slot
